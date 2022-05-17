@@ -77,6 +77,17 @@
     "@ethersproject/logger" "^5.5.0"
     "@ethersproject/rlp" "^5.5.0"
 
+"@ethersproject/address@^5.4.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/address/-/address-5.6.0.tgz#13c49836d73e7885fc148ad633afad729da25012"
+  integrity sha512-6nvhYXjbXsHPS+30sHZ+U4VMagFC/9zAk6Gd/h3S21YW4+yfb0WfRtaAIZ4kfM4rrVwqiy284LP0GtL5HXGLxQ==
+  dependencies:
+    "@ethersproject/bignumber" "^5.6.0"
+    "@ethersproject/bytes" "^5.6.0"
+    "@ethersproject/keccak256" "^5.6.0"
+    "@ethersproject/logger" "^5.6.0"
+    "@ethersproject/rlp" "^5.6.0"
+
 "@ethersproject/base64@5.5.0", "@ethersproject/base64@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/base64/-/base64-5.5.0.tgz#881e8544e47ed976930836986e5eb8fab259c090"
@@ -101,12 +112,28 @@
     "@ethersproject/logger" "^5.5.0"
     bn.js "^4.11.9"
 
+"@ethersproject/bignumber@^5.6.0":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@ethersproject/bignumber/-/bignumber-5.6.1.tgz#d5e0da518eb82ab8d08ca9db501888bbf5f0c8fb"
+  integrity sha512-UtMeZ3GaUuF9sx2u9nPZiPP3ULcAFmXyvynR7oHl/tPrM+vldZh7ocMsoa1PqKYGnQnqUZJoqxZnGN6J0qdipA==
+  dependencies:
+    "@ethersproject/bytes" "^5.6.0"
+    "@ethersproject/logger" "^5.6.0"
+    bn.js "^4.11.9"
+
 "@ethersproject/bytes@5.5.0", "@ethersproject/bytes@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.5.0.tgz#cb11c526de657e7b45d2e0f0246fb3b9d29a601c"
   integrity sha512-ABvc7BHWhZU9PNM/tANm/Qx4ostPGadAuQzWTr3doklZOhDlmcBqclrQe/ZXUIj3K8wC28oYeuRa+A37tX9kog==
   dependencies:
     "@ethersproject/logger" "^5.5.0"
+
+"@ethersproject/bytes@^5.6.0":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@ethersproject/bytes/-/bytes-5.6.1.tgz#24f916e411f82a8a60412344bf4a813b917eefe7"
+  integrity sha512-NwQt7cKn5+ZE4uDn+X5RAXLp46E1chXoaMmrxAyA0rblpxz8t58lVkrHXoRIn0lz1joQElQ8410GqhTqMOwc6g==
+  dependencies:
+    "@ethersproject/logger" "^5.6.0"
 
 "@ethersproject/constants@5.5.0", "@ethersproject/constants@^5.5.0":
   version "5.5.0"
@@ -199,10 +226,23 @@
     "@ethersproject/bytes" "^5.5.0"
     js-sha3 "0.8.0"
 
+"@ethersproject/keccak256@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/keccak256/-/keccak256-5.6.0.tgz#fea4bb47dbf8f131c2e1774a1cecbfeb9d606459"
+  integrity sha512-tk56BJ96mdj/ksi7HWZVWGjCq0WVl/QvfhFQNeL8fxhBlGoP+L80uDCiQcpJPd+2XxkivS3lwRm3E0CXTfol0w==
+  dependencies:
+    "@ethersproject/bytes" "^5.6.0"
+    js-sha3 "0.8.0"
+
 "@ethersproject/logger@5.5.0", "@ethersproject/logger@^5.5.0":
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.5.0.tgz#0c2caebeff98e10aefa5aef27d7441c7fd18cf5d"
   integrity sha512-rIY/6WPm7T8n3qS2vuHTUBPdXHl+rGxWxW5okDfo9J4Z0+gRRZT0msvUdIJkE4/HS29GUMziwGaaKO2bWONBrg==
+
+"@ethersproject/logger@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/logger/-/logger-5.6.0.tgz#d7db1bfcc22fd2e4ab574cba0bb6ad779a9a3e7a"
+  integrity sha512-BiBWllUROH9w+P21RzoxJKzqoqpkyM1pRnEKG69bulE9TSQD8SAIvTQqIMZmmCO8pUNkgLP1wndX1gKghSpBmg==
 
 "@ethersproject/networks@5.5.2", "@ethersproject/networks@^5.5.0":
   version "5.5.2"
@@ -266,6 +306,14 @@
   dependencies:
     "@ethersproject/bytes" "^5.5.0"
     "@ethersproject/logger" "^5.5.0"
+
+"@ethersproject/rlp@^5.6.0":
+  version "5.6.0"
+  resolved "https://registry.yarnpkg.com/@ethersproject/rlp/-/rlp-5.6.0.tgz#55a7be01c6f5e64d6e6e7edb6061aa120962a717"
+  integrity sha512-dz9WR1xpcTL+9DtOT/aDO+YyxSSdO8YIS0jyZwHHSlAmnxA6cKU3TrTd4Xc/bHayctxTgGLYNuVVoiXE4tTq1g==
+  dependencies:
+    "@ethersproject/bytes" "^5.6.0"
+    "@ethersproject/logger" "^5.6.0"
 
 "@ethersproject/sha2@5.5.0", "@ethersproject/sha2@^5.5.0":
   version "5.5.0"
@@ -376,6 +424,11 @@
     "@ethersproject/properties" "^5.5.0"
     "@ethersproject/strings" "^5.5.0"
 
+"@metamask/detect-provider@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@metamask/detect-provider/-/detect-provider-1.2.0.tgz#3667a7531f2a682e3c3a43eaf3a1958bdb42a696"
+  integrity sha512-ocA76vt+8D0thgXZ7LxFPyqw3H7988qblgzddTDA6B8a/yU0uKV42QR/DhA+Jh11rJjxW0jKvwb5htA6krNZDQ==
+
 "@next/env@12.0.8":
   version "12.0.8"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.0.8.tgz#a32ca0a97d464307f2e6ff106ce09b19aac108cf"
@@ -445,6 +498,87 @@
   version "17.0.8"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-17.0.8.tgz#50d680c8a8a78fe30abe6906453b21ad8ab0ad7b"
   integrity sha512-YofkM6fGv4gDJq78g4j0mMuGMkZVxZDgtU0JRdx6FgiJDG+0fY0GKVolOV8WqVmEhLCXkQRjwDdKyPxJp/uucg==
+
+"@web3-react/core@8.0.10-beta.0":
+  version "8.0.10-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/core/-/core-8.0.10-beta.0.tgz#c34742437e3f3621e148991b28d4655aa0fd9da4"
+  integrity sha512-uZacY6uCWCTJ3fIV4SR0Uyg3L8YUOLRM0CFWN+aP4dLs7hjRhb734hzCN0PPGztWlJKME9nwTcJZqpp8tDnkYA==
+  dependencies:
+    "@web3-react/store" "^8.0.5-beta.0"
+    "@web3-react/types" "^8.0.3-beta.0"
+    zustand "^4.0.0-beta.0"
+  optionalDependencies:
+    "@ethersproject/providers" "^5.5.1"
+
+"@web3-react/eip1193@8.0.5-beta.0":
+  version "8.0.5-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/eip1193/-/eip1193-8.0.5-beta.0.tgz#9b368f0eac206559751ffef895ffc283613c4afe"
+  integrity sha512-293WyeP76+u7YYbwKQru0ACssH/0V26XZvqRJXO4vHRdYkCbcX9e3u9HvsG4MR/6ipLs0uZ00anrqFM5XZBCuQ==
+  dependencies:
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/empty@8.0.3-beta.0":
+  version "8.0.3-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/empty/-/empty-8.0.3-beta.0.tgz#09c9b80e7c17f1c5bfe195f11c6d436d93276ef8"
+  integrity sha512-yuSONFeXYP7BmVjk1zvAZEW/G7RyRe88MKwvF2k9GajPeak4l8fo2g7zBcjU3G1wZPSviH0LqXqCmh9pap8bGg==
+  dependencies:
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/metamask@8.0.6-beta.0":
+  version "8.0.6-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/metamask/-/metamask-8.0.6-beta.0.tgz#d23dc09ac9847652dbd8ec9d12ba7ec47e45ec21"
+  integrity sha512-jTg6nW8mtiTmuRm+94HI4wTg11rGiTP88PFDhRxbtIMv5G5wsgQWFG6N5zNPV1G8i7f4xeubXNn552IqHz1lrA==
+  dependencies:
+    "@metamask/detect-provider" "^1.2.0"
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/network@8.0.5-beta.0":
+  version "8.0.5-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/network/-/network-8.0.5-beta.0.tgz#9d90d9c2f4ed62af65fc27d7aede682df45553e2"
+  integrity sha512-bjkkU/XCOhWINWehsi08xYKPHDUvaJXJnVNqu8CFY7NcjA1JJWQ4qNWcUta5kciojbBc6k159AGpvf00hGcZYQ==
+  dependencies:
+    "@ethersproject/experimental" "^5.5.0"
+    "@ethersproject/providers" "^5.5.1"
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/store@^8.0.5-beta.0":
+  version "8.0.5-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/store/-/store-8.0.5-beta.0.tgz#321817844e9f0f54dbefe0bc47e877f5b3ed96dc"
+  integrity sha512-UpeOhIJ4PemdgaOQNhOv1lHPYoizp1KAROse0ReaJ1KZ1gGTjv9z1rVC7k6gT8oHAWgsFUEEQYkQSy60Gai13A==
+  dependencies:
+    "@ethersproject/address" "^5.4.0"
+    "@web3-react/types" "^8.0.3-beta.0"
+    zustand "^4.0.0-beta.0"
+
+"@web3-react/types@8.0.3-beta.0", "@web3-react/types@^8.0.3-beta.0":
+  version "8.0.3-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/types/-/types-8.0.3-beta.0.tgz#544e6c933615faf4084fd1f69a609ef3eb0944d9"
+  integrity sha512-yrwKw8+i3xWH3Faue4+TISkQ3B4g9w8ibW5OMQjeBA1J9s7GPZcElvKnyL0HjTmTml4ie7X51ktGqd2Lk06m1w==
+  dependencies:
+    zustand "^4.0.0-beta.0"
+
+"@web3-react/url@8.0.5-beta.0":
+  version "8.0.5-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/url/-/url-8.0.5-beta.0.tgz#dd290c817049627c297a42570b429d7945b50a09"
+  integrity sha512-sWqqC2wM38T8wyBzWZ7UkmIWj/N3XRZxflbEpQIipj3mua4SIEpcNPcbOKGwaVbDOiENmXqTyUCEYAF4bhPFKw==
+  dependencies:
+    "@ethersproject/experimental" "^5.5.0"
+    "@ethersproject/providers" "^5.5.1"
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/walletconnect@8.0.8-beta.0":
+  version "8.0.8-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/walletconnect/-/walletconnect-8.0.8-beta.0.tgz#d0659b0e923f58dc35ea0fb868e6c0c47d702e12"
+  integrity sha512-EvYzdtaz9xrv/D+gGBwjA9jZKvtmiXuQam7/9abGpM2XVjBeTynYRXrpW/OjsjcxrBsWhfrnrfwFUwOrnkfh8A==
+  dependencies:
+    "@web3-react/types" "^8.0.3-beta.0"
+
+"@web3-react/walletlink@8.0.10-beta.0":
+  version "8.0.10-beta.0"
+  resolved "https://registry.yarnpkg.com/@web3-react/walletlink/-/walletlink-8.0.10-beta.0.tgz#21dcfa0040f32c104fc0e2f14a44702010373a4c"
+  integrity sha512-2fxSzljxoJX4AodJUzomLPhATex5/DM200kSXTxdMvYp9Cg9Nclkfy47WLxpxmPfvke3BlER4o6CZTE3LZCM5g==
+  dependencies:
+    "@web3-react/types" "^8.0.3-beta.0"
 
 aes-js@3.0.0:
   version "3.0.0"
@@ -627,9 +761,9 @@ minimalistic-crypto-utils@^1.0.1:
   integrity sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo=
 
 minimist@^1.2.0:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.6.tgz#8637a5b759ea0d6e98702cfb3a9283323c93af44"
+  integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
 nanoid@^3.1.23:
   version "3.1.31"
@@ -808,6 +942,11 @@ use-subscription@1.5.1:
   dependencies:
     object-assign "^4.1.1"
 
+use-sync-external-store@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.1.0.tgz#3343c3fe7f7e404db70f8c687adf5c1652d34e82"
+  integrity sha512-SEnieB2FPKEVne66NpXPd1Np4R1lTNKfjuy3XdIoPQKYBAFdzbzSZlSn1KJZUiihQLQC5Znot4SBz1EOTBwQAQ==
+
 util-deprecate@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -817,3 +956,10 @@ ws@7.4.6:
   version "7.4.6"
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.4.6.tgz#5654ca8ecdeee47c33a9a4bf6d28e2be2980377c"
   integrity sha512-YmhHDO4MzaDLB+M9ym/mDA5z0naX8j7SIlT8f8z+I0VtzsRbekxEutHSme7NPS2qE8StCYQNUnfWdXta/Yu85A==
+
+zustand@^4.0.0-beta.0:
+  version "4.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/zustand/-/zustand-4.0.0-rc.1.tgz#ec30a3afc03728adec7e1bd7bcc3592176372201"
+  integrity sha512-qgcs7zLqBdHu0PuT3GW4WCIY5SgXdsv30GQMu9Qpp1BA2aS+sNS8l4x0hWuyEhjXkN+701aGWawhKDv6oWJAcw==
+  dependencies:
+    use-sync-external-store "1.1.0"
